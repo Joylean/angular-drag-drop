@@ -22,7 +22,6 @@ export class AppComponent implements OnInit {
   carddatatwo:Carddata[]=cardData2;
 
   constructor(){
-    console.log(this.carddata);
   }
 
   drop(event: CdkDragDrop<any>) {
